@@ -124,7 +124,7 @@ while True:
     model.add(Dropout(0.2))
     # model.add(Bidirectional(LSTM(50, return_sequences=True, consume_less='gpu')))
     # model.add(Dropout(0.2))
-    model.add(Bidirectional(LSTM(100, consume_less='gpu')))
+    model.add(Bidirectional(LSTM(80, consume_less='gpu')))
     model.add(Dropout(0.2))
     model.add(Dense(20, activation='relu'))
     model.add(Dropout(0.5))
