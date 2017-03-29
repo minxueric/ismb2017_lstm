@@ -80,7 +80,7 @@ print('Building model...')
 model = Sequential()
 print 'fix embedding layer with one-hot vectors'
 acgt2vec={'a': np.array([1, 0, 0, 0], dtype='float32'),
-          'c': np.array([0, 1, 0, 1], dtype='float32'),
+          'c': np.array([0, 1, 0, 0], dtype='float32'),
           'g': np.array([0, 0, 1, 0], dtype='float32'),
           't': np.array([0, 0, 0, 1], dtype='float32'),
           'n': np.array([0, 0, 0, 0], dtype='float32')}
