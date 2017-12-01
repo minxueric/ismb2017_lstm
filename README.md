@@ -24,7 +24,7 @@ First, we generate the sequence dataset and prepare k-mer corpus for GloVe.
 ```python
 python ./generate_seqs.py -e 0
 ```
-The $$k$$-mer length $$k$$, the splitting stride $$s$$ can be set in the script. The -e paramter assigns one of the six cell type: GM12878, K562, MCF-7, HeLa-S3, H1-hESC and HepG2.
+The $k$-mer length $k$, the splitting stride $s$ can be set in the script. The -e paramter assigns one of the six cell type: GM12878, K562, MCF-7, HeLa-S3, H1-hESC and HepG2.
 
 ### GloVe pre-training
 We train k-mer embedding vectors by GloVe.
