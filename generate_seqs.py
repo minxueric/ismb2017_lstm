@@ -14,7 +14,8 @@ e = args.e
 
 expnames = ['SNEDE0000EMT', 'SNEDE0000EPC', 'SNEDE0000EPH', 'SNEDE0000ENO', 'SNEDE0000EMU', 'SNEDE0000ENP']
 name = expnames[e]
-path = '/home/xumin/spot/%s' % name
+#path = '/home/xumin/spot/%s' % name
+path = './spot/%s' % name
 genome = '../deepenhancer/temp/sequences.hkl'
 seqpath1 = './data/%s_pos' % name
 seqpath2 = './data/%s_neg' % name
