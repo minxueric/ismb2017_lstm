@@ -18,7 +18,7 @@ name = expnames[e]
 path = './spot/%s' % name
 # the genome is a self-maintained UCSC hg19 genome hickle file,
 # one can download chr[1-22,X,Y].fa.gz on http://hgdownload.cse.ucsc.edu/goldenPath/hg19/chromosomes/
-genome = '../deepenhancer/temp/sequences.hkl'
+genome = './temp/sequences.hkl'
 seqpath1 = './data/%s_pos' % name
 seqpath2 = './data/%s_neg' % name
 
